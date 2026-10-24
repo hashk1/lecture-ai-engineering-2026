@@ -30,6 +30,9 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+質問への回答後は、`次の質問` の入力待ちになります。同じ実行中のチャットに
+送るため、直前までの会話を踏まえた質問ができます。空行または `Ctrl-D` で終了します。
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
